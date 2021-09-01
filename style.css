@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: rgb(58, 57, 55);
+    height: 80px;
+}
+#head .logo h1{
+    margin-left: 100px;
+    color: beige;
+    line-height: 80px;
+}
+
+#head .flex{
+    display: flex;
+}
+#head .recherche{
+    margin-left: 150px;
+}
+#head .recherche input{
+    width: 600px;
+    margin-top: 20px;
+}
+#head .mini-nav{
+    margin-left: 150px;
+}
+#head .mini-nav i{
+    color: beige;
+    font-size: 35px;
+    margin-left: 25px;
+    line-height: 80px;
+}
+/* -------section nav--------- */
+#nav{
+    margin-top: 20px;
+}
+#nav ul{
+    text-align: center;
+    list-style: none;
+}
+
+#nav ul li.femme-li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#nav ul li.femme-li:hover{
+    color: deeppink;
+}
+#nav ul li.homme-li{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#nav ul li.homme-li:hover{
+    color: cornflowerblue;
+}
+/* ---------------section home------------ */
+#home .femme-image{
+    float: left;
+    width: 49.9%;
+}
+#home .homme-image{
+    float: right;
+    width: 49.9%;
+}
+/* -----------section categorie-------------- */
+#categorie .left{
+    float: left;
+}
+#categorie .right{
+    float: right;
+}
+#categorie .btn-femme{
+    margin-left: 500px;
+    margin-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:  rgb(58, 57, 55);
+    border:  rgb(58, 57, 55);
+}
+#categorie .btn-femme:hover{
+    background-color: deeppink;
+}
+#categorie .btn-homme{
+    margin-right: 500px;
+    margin-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:  rgb(58, 57, 55);
+    border:  rgb(58, 57, 55);
+}
+#categorie .btn-homme:hover{
+    background-color: cornflowerblue;
+}
+/* ----------netoyage---------- */
+.clear{
+    clear: both;
+}
+
+/* --------------nouveau produit------------------ */
+#nouveau {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #ccc;
+}
+#nouveau img{
+    width: 100%;
+    box-shadow: 0 0 20px 0 rgb(58, 57, 55);
+    cursor: pointer;
+}
+#nouveau .col-4{
+    transition-duration: 0.5s;
+}
+#nouveau .col-4:hover{
+    transform: translateY(-5px);
+}
+#nouveau i{
+    color: deeppink;
+}
+#nouveau h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#nouveau h2::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: deeppink;
+    display: block;
+    margin: 15px auto;
+}
